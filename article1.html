@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boosting Crop Yields in Maharashtra: How to Increase Soil pH - Soil Matters</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #f0f8e8;
+            border-radius: 10px;
+            height: 70px;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: #45a049;
+            font-family: 'Playfair Display', serif;
+            font-size: large;
+        }
+
+        header .logo h1 {
+            margin: 0;
+            font-size: 1.5em;
+            align-self: center;
+        }
+
+        header .logo img {
+            width: 100px;
+            height: 100px;
+        }
+
+        nav {
+            display: flex;
+            background-color: #4CAF50;
+            border-radius: 8px;
+            padding: 5px 0;
+            align-items: center;
+        }
+
+        .nav-btn {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: #45a049;
+        }
+
+        .blog-content {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .blog-content h2 {
+            font-size: 2.5em;
+            color: #45a049;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .blog-content h3 {
+            font-size: 1.5em;
+            color: #4CAF50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f0f8e8;
+            padding-bottom: 5px;
+        }
+
+        .blog-content p {
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .blog-content ul, .blog-content ol {
+            padding-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        .blog-content ul li, .blog-content ol li {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .key-points {
+            background-color: #f0f8e8;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .language-selector {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .language-selector select {
+            padding: 10px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .language-content {
+            display: none;
+        }
+
+        .language-content.active {
+            display: block;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 1024px) {
+            header {
+                flex-direction: column;
+                height: auto;
+                padding: 10px;
+            }
+            header .logo { margin-bottom: 10px; }
+            nav { width: 100%; justify-content: space-around; }
+            .nav-btn { padding: 8px 10px; }
+            .blog-content { margin: 20px; }
+        }
+
+        @media screen and (max-width: 768px) {
+            header .logo h1 { font-size: 1.2em; }
+            header .logo img { width: 75px; height: 75px; }
+            .blog-content h2 { font-size: 2em; }
+            .blog-content h3 { font-size: 1.3em; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="cropwise logo.jpeg" alt="Soil Matters Logo">
+            <h1>Soil Matters</h1>
+        </div>
+        <nav>
+            <a class="nav-btn" href="#home">Home</a>
+            <a class="nav-btn" href="#blog">Blog</a>
+            <a class="nav-btn" href="#about">About</a>
+            <a class="nav-btn" href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="blog-content" id="blog">
+        <h2>Soil pH Management: Increasing Soil pH</h2>
+
+        <div class="language-selector">
+            <label for="language">Select Language / भाषा निवडा / भाषा चुनें: </label>
+            <select id="language" onchange="switchLanguage()">
+                <option value="english">English</option>
+                <option value="marathi">मराठी</option>
+                <option value="hindi">हिन्दी</option>
+            </select>
+        </div>
+
+        <!-- English Content -->
+        <div id="english" class="language-content active">
+            <div class="key-points">
+                <h3>Key Points</h3>
+                <ul>
+                    <li>Research suggests that soil pH affects crop yields in Maharashtra, particularly for kharif season millets like Jowar, Bajra, and Ragi.</li>
+                    <li>Acidic soils (pH <6.0) lock up nutrients, reducing availability to plants.</li>
+                    <li>Methods like lime (500-2000 kg/ha) and wood ash (500-1000 kg/ha) effectively raise soil pH.</li>
+                    <li>Regular testing and local practices are crucial for Maharashtra’s diverse soils (Black, Red, Laterite).</li>
+                </ul>
+            </div>
+
+            <h3>Boosting Crop Yields in Maharashtra: How to Increase Soil pH When It’s Too Low</h3>
+            <p><strong>Introduction</strong></p>
+            <p>Soil pH is a cornerstone of successful farming in Maharashtra, where diverse soil types like Black, Red, and Laterite support staple crops such as Jowar, Bajra, and Ragi during the Kharif season (June-October). Acidic soils, particularly prevalent in the Laterite regions of Konkan and parts of Vidarbha (pH 4.5-6.5), can severely limit nutrient availability, reducing millet yields. When tools like CropVision detect a pH below the optimal range—say, under 6.5 for Black soil or 5.5 for Red soil—corrective action is essential. This guide explores proven methods to raise soil pH, grounded in Maharashtra’s agricultural realities and supported by research from the Indian Council of Agricultural Research (ICAR).</p>
+
+            <p><strong>Why Increase Soil pH?</strong></p>
+            <p>Soil pH below 6.0 locks up critical nutrients like phosphorus, calcium, and magnesium, making them unavailable to plants. For millets, which thrive at pH 6.5-7.5, low pH weakens root systems, stunts growth, and lowers productivity. In Maharashtra, acidic Laterite soils (pH often 4.5-5.5) in Konkan and acidic Red soils (pH 5.0-6.0) in Vidarbha exacerbate these issues, as noted in ICAR’s Soil Management Guidelines.</p>
+
+            <h3>Effective Methods to Increase Soil pH</h3>
+            <p><strong>1. Agricultural Lime: The Gold Standard</strong></p>
+            <p>Agricultural lime, primarily calcium carbonate, neutralizes soil acidity while supplying calcium. Spread 500-1000 kg/ha for sandy soils or 1500-2000 kg/ha for clay soils (e.g., Black soil) to raise pH by 1 unit, tilling it 6-8 inches deep. Widely available in Maharashtra, it’s recommended by ICAR for Konkan’s Laterite soils (pH 4.5-5.5). Use dolomitic lime if magnesium is low. Cost: ₹2000-3000/ha.</p>
+
+            <p><strong>2. Wood Ash: A Local Solution</strong></p>
+            <p>Ash from untreated wood releases potassium and calcium carbonates, buffering acidity. Apply 500-1000 kg/ha, mixing into the top 6 inches of soil, raising pH by 0.5-1 unit. A traditional practice in Vidarbha, where wood is abundant. Avoid chemically treated ash and over-application.</p>
+
+            <p><strong>3. Organic Matter: Sustainable Buffering</strong></p>
+            <p>Well-decomposed compost or manure (5-10 tons/ha) releases bases like calcium, slowly raising pH. Incorporate in April-May before Kharif sowing. Ideal for Marathwada’s small farmers; pair with lime for faster results.</p>
+
+            <p><strong>4. Neutral Fertilizers: Preventing Acidification</strong></p>
+            <p>Switch from urea to calcium nitrate to avoid further pH decline. Urea, common in Vidarbha, acidifies soil over time.</p>
+
+            <p><strong>Practical Example for Maharashtra</strong></p>
+            <p>A Konkan farmer with Laterite soil at pH 4.5 growing Ragi (ideal pH 6.5-7.0) can apply 1000 kg/ha of lime in May. Retest in July with CropVision, adding 500 kg/ha more if pH remains below 6.5.</p>
+
+            <p><strong>Conclusion</strong></p>
+            <p>Raising soil pH in Maharashtra is straightforward with lime, ash, and organic matter. Regular testing with CropVision ensures optimal conditions, boosting millet yields sustainably.</p>
+
+            <h3>References</h3>
+            <ul>
+                <li><a href="https://icar.org.in/content/soil-management" target="_blank">ICAR Soil Management Guidelines</a> - Detailed insights on soil pH correction.</li>
+                <li><a href="https://www.soils.org/discover-soils/soil-basics/soil-ph" target="_blank">Soil Science Society of America: Soil pH Basics</a> - Explains nutrient lockup in acidic soils.</li>
+                <li><a href="https://agri.maharashtra.gov.in" target="_blank">Maharashtra Agriculture Department</a> - Local fertilizer practices and soil management.</li>
+            </ul>
+        </div>
+
+        <!-- Marathi Content -->
+        <div id="marathi" class="language-content">
+            <div class="key-points">
+                <h3>मुख्य मुद्दे</h3>
+                <ul>
+                    <li>संशोधन असे सुचवते की मातीचा पीएच महाराष्ट्रातील पिकांच्या उत्पादनावर परिणाम करतो, विशेषतः खरीप हंगामातील जोवर, बाजरी आणि रागी यांसारख्या पिकांसाठी.</li>
+                    <li>आम्लयुक्त माती (पीएच <६.०) पोषक तत्त्वांना बंद करते, तर क्षारीय माती (पीएच >८.०) सूक्ष्म पोषक तत्त्वांची उपलब्धता कमी करते.</li>
+                    <li>चुना (५००-२००० किलो/हेक्टर) आणि सल्फर (२००-५०० किलो/हेक्टर) यांसारख्या पद्धती मातीचा पीएच सुधारण्यासाठी प्रभावी आहेत.</li>
+                    <li>महाराष्ट्रातील ब्लॅक, रेड आणि लॅटेराइट मातींसाठी स्थानिक पद्धती आणि नियमित चाचणी महत्त्वाची आहे.</li>
+                </ul>
+            </div>
+
+            <h3>महाराष्ट्रात पीक उत्पादन वाढवणे: मातीचा पीएच कमी असल्यास तो कसा वाढवावा</h3>
+            <p><strong>परिचय</strong></p>
+            <p>महाराष्ट्रातील शेतीसाठी मातीचा पीएच महत्त्वाचा आहे, विशेषतः खरीप हंगामात (जून-ऑक्टोबर) जोवर, बाजरी आणि रागी यांसारख्या पिकांसाठी. कोकणातील लॅटेराइट माती (पीएच ४.५-६.५) आणि विदर्भातील काही भागात आढळणारी आम्लयुक्त (ऍसिडिक) माती पिकांच्या वाढीस अडथळा आणते. जर तुमच्या मातीच्या चाचणीचा निकाल—उदाहरणार्थ, क्रॉपव्हिजनद्वारे—पीएच खूप कमी दर्शवित असेल (उदा., ब्लॅक मातीचे ६.५ किंवा रेड मातीचे ५.५ खाली), तर तो वाढवणे आवश्यक आहे. हे मार्गदर्शक तुम्हाला मातीचा पीएच वाढवण्याच्या प्रभावी पद्धती सांगते, ज्या महाराष्ट्राच्या शेती परिस्थितीवर आधारित आहेत आणि भारतीय कृषी संशोधन परिषदेच्या (ICAR) संशोधनावर अवलंबून आहेत.</p>
+
+            <p><strong>मातीचा पीएच का वाढवावा?</strong></p>
+            <p>आम्लयुक्त माती (पीएच <६.०) फॉस्फरस, कॅल्शियम आणि मॅग्नेशियम यांसारख्या आवश्यक पोषक तत्त्वांना बंद करते, ज्यामुळे पिकांना ते मिळत नाहीत. जोवर आणि बाजरीसाठी पीएच ६.५-७.५ हा आदर्श आहे. ICAR च्या मते, विदर्भ आणि कोकणातील आम्लयुक्त माती उत्पादन कमी करते, म्हणून पीएच सुधारणे गरजेचे आहे.</p>
+
+            <h3>मातीचा पीएच वाढवण्याच्या प्रभावी पद्धती</h3>
+            <p><strong>१. शेतीसाठी चुना (कॅल्शियम कार्बोनेट): सर्वोत्तम पर्याय</strong></p>
+            <p>चुना मातीतील आम्लता कमी करतो आणि कॅल्शियम प्रदान करतो. ५००-१००० किलो/हेक्टर (वाळू माती) किंवा १५००-२००० किलो/हेक्टर (चिकण माती) पसरवा आणि ६-८ इंच खणून मिसळा. कोकणातील लॅटेराइट (पीएच ४.५-५.५) साठी ICAR ने शिफारस केली आहे. मॅग्नेशियम कमी असल्यास डोलोमिटिक चुना वापरा. खर्च: ₹२०००-३०००/हेक्टर.</p>
+
+            <p><strong>२. लाकडाची राख: स्थानिक उपाय</strong></p>
+            <p>राख पोटॅशियम आणि कॅल्शियम कार्बोनेट सोडते, पीएच वाढवते. ५००-१००० किलो/हेक्टर पसरवा, ६ इंच मिसळा. पीएच ०.५-१ ने वाढते. विदर्भात पारंपरिक पद्धत, लाकूड स्वस्त आहे. रासायनिक लाकडाची राख टाळा; जास्त वापरू नका.</p>
+
+            <p><strong>३. सेंद्रिय पदार्थ: दीर्घकालीन उपाय</strong></p>
+            <p>कुजलेले खत (५-१० टन/हेक्टर) कॅल्शियम सोडते, पीएच हळूहळू वाढवते. एप्रिल-मे मध्ये मिसळा. मराठवाड्यातील छोट्या शेतकऱ्यांसाठी उपयुक्त. चुन्यासोबत वापरा.</p>
+
+            <p><strong>४. तटस्थ खते: आम्लता टाळणे</strong></p>
+            <p>युरियाऐवजी कॅल्शियम नायट्रेट वापरा. युरिया विदर्भात सामान्य आहे, पण तो पीएच कमी करतो.</p>
+
+            <p><strong>महाराष्ट्रासाठी उदाहरण</strong></p>
+            <p>कोकणातील शेतकरी, ज्याची लॅटेराइट माती पीएच ४.५ आहे, रागीसाठी (आदर्श पीएच ६.५-७.०) मे मध्ये १००० किलो/हेक्टर चुना लावू शकतो. जुलैमध्ये क्रॉपव्हिजनने पुन्हा तपासा, जर पीएच ६.५ पेक्षा कमी असेल तर ५०० किलो/हेक्टर जास्त लावा.</p>
+
+            <p><strong>निष्कर्ष</strong></p>
+            <p>महाराष्ट्रात मातीचा पीएच वाढवणे शेतकऱ्यांसाठी सोपे आहे. क्रॉपव्हिजनसारख्या साधनांनी नियमित तपासणी करा आणि योग्य वेळी चुना वापरा, म्हणजे पीक चांगले येईल.</p>
+
+            <h3>संदर्भ</h3>
+            <ul>
+                <li><a href="https://icar.org.in/content/soil-management" target="_blank">ICAR माती व्यवस्थापन मार्गदर्शक</a> - मातीच्या पीएच सुधारणेची माहिती.</li>
+                <li><a href="https://www.soils.org/discover-soils/soil-basics/soil-ph" target="_blank">Soil Science Society of America: मातीचा पीएच मूलभूत</a> - आम्लयुक्त मातीतील पोषक तत्त्वांचे बंद होणे.</li>
+                <li><a href="https://agri.maharashtra.gov.in" target="_blank">महाराष्ट्र कृषी विभाग</a> - स्थानिक खत पद्धती आणि माती व्यवस्थापन.</li>
+            </ul>
+        </div>
+
+        <!-- Hindi Content -->
+        <div id="hindi" class="language-content">
+            <div class="key-points">
+                <h3>मुख्य मुद्दे</h3>
+                <ul>
+                    <li>शोध बताते हैं कि मिट्टी का पीएच महाराष्ट्र में फसलों के उत्पादन को प्रभावित करता है, विशेष रूप से खरीफ मौसम की फसलों जैसे ज्वार, बाजरा और रागी के लिए।</li>
+                    <li>अम्लीय मिट्टी (पीएच <6.0) पोषक तत्वों को रोक देती है, जिससे पौधों को वे नहीं मिलते।</li>
+                    <li>चूना (500-2000 किलो/हेक्टेयर) और लकड़ी की राख (500-1000 किलो/हेक्टेयर) जैसी विधियाँ पीएच बढ़ाने में प्रभावी हैं।</li>
+                    <li>महाराष्ट्र की ब्लैक, रेड और लैटेराइट मिट्टियों के लिए नियमित जांच और स्थानीय तरीके महत्वपूर्ण हैं।</li>
+                </ul>
+            </div>
+
+            <h3>महाराष्ट्र में फसल उत्पादन बढ़ाना: मिट्टी का पीएच कम होने पर इसे कैसे बढ़ाएं</h3>
+            <p><strong>परिचय</strong></p>
+            <p>महाराष्ट्र में खेती के लिए मिट्टी का पीएच महत्वपूर्ण है, खासकर खरीफ मौसम (जून-अक्टूबर) में ज्वार, बाजरा और रागी जैसी फसलों के लिए। कोकण में लैटेराइट मिट्टी (पीएच 4.5-6.5) और विदर्भ के कुछ हिस्सों में अम्लीय मिट्टी फसलों की वृद्धि में बाधा डालती है। यदि आपकी मिट्टी की जांच—जैसे कि क्रॉपविजन से—पीएच बहुत कम (जैसे ब्लैक मिट्टी के लिए 6.5 या रेड मिट्टी के लिए 5.5 से नीचे) दिखाती है, तो इसे बढ़ाना जरूरी है। यह मार्गदर्शिका आपको मिट्टी का पीएच बढ़ाने की प्रभावी विधियाँ बताती है, जो महाराष्ट्र की खेती की स्थिति और भारतीय कृषि अनुसंधान परिषद (ICAR) के शोध पर आधारित हैं।</p>
+
+            <p><strong>मिट्टी का पीएच क्यों बढ़ाएं?</strong></p>
+            <p>अम्लीय मिट्टी (पीएच <6.0) फॉस्फोरस, कैल्शियम और मैग्नीशियम जैसे आवश्यक पोषक तत्वों को रोक देती है, जिससे फसलों को वे नहीं मिलते। ज्वार और बाजरा के लिए पीएच 6.5-7.5 आदर्श है। ICAR के अनुसार, विदर्भ और कोकण की अम्लीय मिट्टी उत्पादन कम करती है, इसलिए पीएच सुधार जरूरी है।</p>
+
+            <h3>मिट्टी का पीएच बढ़ाने की प्रभावी विधियाँ</h3>
+            <p><strong>1. कृषि चूना (कैल्शियम कार्बोनेट): सबसे अच्छा विकल्प</strong></p>
+            <p>चूना मिट्टी की अम्लता कम करता है और कैल्शियम प्रदान करता है। 500-1000 किलो/हेक्टेयर (रेतीली मिट्टी) या 1500-2000 किलो/हेक्टेयर (चिकनी मिट्टी) फैलाएं और 6-8 इंच तक मिश्रित करें। कोकण में लैटेराइट (पीएच 4.5-5.5) के लिए ICAR ने सिफारिश की है। मैग्नीशियम कम होने पर डोलोमिटिक चूना इस्तेमाल करें। लागत: ₹2000-3000/हेक्टेयर।</p>
+
+            <p><strong>2. लकड़ी की राख: स्थानीय उपाय</strong></p>
+            <p>राख पोटैशियम और कैल्शियम कार्बोन रिपोर्ट छोड़ती है, पीएच बढ़ाती है। 500-1000 किलो/हेक्टेयर फैलाएं, 6 इंच मिश्रित करें। पीएच 0.5-1 तक बढ़ता है। विदर्भ में पारंपरिक विधि, लकड़ी सस्ती है। रासायनिक लकड़ी की राख से बचें; ज्यादा न डालें।</p>
+
+            <p><strong>3. जैविक पदार्थ: दीर्घकालिक उपाय</strong></p>
+            <p>सड़ा हुआ खाद (5-10 टन/हेक्टेयर) कैल्शियम छोड़ता है, पीएच धीरे-धीरे बढ़ाता है। अप्रैल-मई में मिश्रित करें। मराठवाडा के छोटे किसानों के लिए उपयोगी। चूने के साथ इस्तेमाल करें।</p>
+
+            <p><strong>4. तटस्थ उर्वरक: अम्लता रोकना</strong></p>
+            <p>यूरिया की जगह कैल्शियम नाइट्रेट इस्तेमाल करें। विदर्भ में यूरिया आम है, लेकिन यह पीएच कम करता है।</p>
+
+            <p><strong>महाराष्ट्र के लिए उदाहरण</strong></p>
+            <p>कोकण का एक किसान, जिसकी लैटेराइट मिट्टी पीएच 4.5 है, रागी के लिए (आदर्श पीएच 6.5-7.0) मई में 1000 किलो/हेक्टेयर चूना डाल सकता है। जुलाई में क्रॉपविजन से दोबारा जांच करें, अगर पीएच 6.5 से कम हो तो 500 किलो/हेक्टेयर और डालें।</p>
+
+            <p><strong>निष्कर्ष</strong></p>
+            <p>महाराष्ट्र में मिट्टी का पीएच बढ़ाना किसानों के लिए आसान है। क्रॉपविजन जैसे उपकरणों से नियमित जांच करें और सही समय पर चूना डालें, ताकि फसल अच्छी हो।</p>
+
+            <h3>संदर्भ</h3>
+            <ul>
+                <li><a href="https://icar.org.in/content/soil-management" target="_blank">ICAR मिट्टी प्रबंधन दिशानिर्देश</a> - मिट्टी के पीएच सुधार की जानकारी।</li>
+                <li><a href="https://www.soils.org/discover-soils/soil-basics/soil-ph" target="_blank">Soil Science Society of America: मिट्टी का पीएच मूलभूत</a> - अम्लीय मिट्टी में पोषक तत्वों का बंद होना।</li>
+                <li><a href="https://agri.maharashtra.gov.in" target="_blank">महाराष्ट्र कृषि विभाग</a> - स्थानीय उर्वरक प्रथाएं और मिट्टी प्रबंधन।</li>
+            </ul>
+        </div>
+    </main>
+
+    <script>
+        function switchLanguage() {
+            const lang = document.getElementById('language').value;
+            const contents = document.getElementsByClassName('language-content');
+            for (let content of contents) {
+                content.classList.remove('active');
+            }
+            document.getElementById(lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>

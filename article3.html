@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factors Affecting Millet Yield Prediction in Maharashtra - Soil Matters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Noto Sans Devanagari', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #f0f8e8;
+            border-radius: 10px;
+            height: 70px;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: #45a049;
+            font-family: 'Playfair Display', serif;
+            font-size: large;
+        }
+
+        header .logo h1 {
+            margin: 0;
+            font-size: 1.5em;
+            align-self: center;
+        }
+
+        header .logo img {
+            width: 100px;
+            height: 100px;
+        }
+
+        nav {
+            display: flex;
+            background-color: #4CAF50;
+            border-radius: 8px;
+            padding: 5px 0;
+            align-items: center;
+        }
+
+        .nav-btn {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: #45a049;
+        }
+
+        .blog-content {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .blog-content h2 {
+            font-size: 2.5em;
+            color: #45a049;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .blog-content h3 {
+            font-size: 1.5em;
+            color: #4CAF50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f0f8e8;
+            padding-bottom: 5px;
+        }
+
+        .blog-content p {
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .blog-content ul, .blog-content ol {
+            padding-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        .blog-content ul li, .blog-content ol li {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .key-points {
+            background-color: #f0f8e8;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .language-selector {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .language-selector select {
+            padding: 10px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .language-content {
+            display: none;
+        }
+
+        .language-content.active {
+            display: block;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1em;
+        }
+
+        table th, table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f0f8e8;
+        }
+
+        table tr:hover {
+            background-color: #e8f4e3;
+        }
+
+        .references a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .references a:hover {
+            color: #45a049;
+            text-decoration: underline;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 1024px) {
+            header {
+                flex-direction: column;
+                height: auto;
+                padding: 10px;
+            }
+            header .logo { margin-bottom: 10px; }
+            nav { width: 100%; justify-content: space-around; }
+            .nav-btn { padding: 8px 10px; }
+            .blog-content { margin: 20px; }
+        }
+
+        @media screen and (max-width: 768px) {
+            header .logo h1 { font-size: 1.2em; }
+            header .logo img { width: 75px; height: 75px; }
+            .blog-content h2 { font-size: 2em; }
+            .blog-content h3 { font-size: 1.3em; }
+            table { font-size: 0.9em; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="cropwise logo.jpeg" alt="Soil Matters Logo">
+            <h1>Soil Matters</h1>
+        </div>
+        <nav>
+            <a class="nav-btn" href="#home">Home</a>
+            <a class="nav-btn" href="#blog">Blog</a>
+            <a class="nav-btn" href="#about">About</a>
+            <a class="nav-btn" href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="blog-content" id="blog">
+        <h2>Factors Affecting Millet Yield Prediction in Maharashtra</h2>
+
+        <div class="language-selector">
+            <label for="language">Select Language / भाषा निवडा / भाषा चुनें: </label>
+            <select id="language" onchange="switchLanguage()">
+                <option value="english">English</option>
+                <option value="marathi">मराठी</option>
+                <option value="hindi">हिन्दी</option>
+            </select>
+        </div>
+
+        <!-- English Content -->
+        <div id="english" class="language-content active">
+            <div class="key-points">
+                <h3>Key Points</h3>
+                <ul>
+                    <li>Research suggests that district, soil type, soil pH, season, climate factors (rainfall, humidity, temperature), and land area all influence millet yield in Maharashtra, with varying impacts.</li>
+                    <li>It seems likely that black soil, common in Maharashtra, supports millet growth, especially finger millet, due to its moisture retention.</li>
+                    <li>The evidence leans toward millets thriving in the kharif season with monsoon rains, though some can be grown in rabi with irrigation.</li>
+                    <li>Climate factors like adequate rainfall and moderate temperatures are crucial, with millets showing resilience to drought, which is unexpected given Maharashtra's variable climate.</li>
+                </ul>
+            </div>
+
+            <p><strong>Introduction to Millet Cultivation in Maharashtra</strong></p>
+            <p>Maharashtra is a significant producer of millets, including jowar (sorghum), bajra (pearl millet), and ragi (finger millet), contributing to the state's agricultural diversity. These crops are vital for food security, especially in semi-arid regions, and are known for their nutritional value and resilience to harsh conditions.</p>
+
+            <h3>Factors Affecting Millet Yield</h3>
+            <p><strong>District Variations</strong></p>
+            <p>Different districts, such as Sangli and Ahmednagar, have unique agro-climatic conditions that affect millet yields. For example, Sangli has shown success with pearl millet due to innovative farming practices, while Ahmednagar is known for its jowar production.</p>
+
+            <p><strong>Soil Type and pH</strong></p>
+            <p>Black soil, predominant in the Deccan plateau, is ideal for millets like finger millet due to its moisture retention and nutrient content. Millets prefer a soil pH of 5.5 to 7.0, which supports optimal nutrient uptake, making soil management a key factor in yield prediction.</p>
+
+            <p><strong>Seasonal Impact</strong></p>
+            <p>Millets are mainly kharif crops, grown from June to September with monsoon rains, but some, like sorghum, can be cultivated in the rabi season with irrigation. The season affects water availability and crop choice, influencing overall yield outcomes.</p>
+
+            <p><strong>Climate Factors</strong></p>
+            <p>Maharashtra's tropical monsoon climate, with hot summers and heavy monsoon rains, suits millets, which are drought-resistant and thrive in temperatures of 20-30°C. Rainfall during the growing season is critical, and millets' ability to withstand high temperatures is a significant advantage in the state’s variable climate.</p>
+
+            <p><strong>Land Area Considerations</strong></p>
+            <p>While land area itself doesn’t directly affect yield per unit, larger areas may benefit from better resource access, potentially improving overall production. Yield prediction focuses on productivity per hectare, shaped by the interplay of the factors above.</p>
+
+            <h3>Detailed Analysis of Factors</h3>
+            <p><strong>Overview of Millet Cultivation in Maharashtra</strong></p>
+            <p>Millets, including jowar (sorghum), bajra (pearl millet), and ragi (finger millet), are crucial for Maharashtra’s agriculture, particularly in semi-arid and drought-prone regions. The state ranks high in millet production, with districts like Sangli, Ahmednagar, and others playing significant roles. These crops are valued for their nutritional benefits and resilience, aligning with efforts to promote sustainable agriculture.</p>
+
+            <p><strong>District-Specific Impacts</strong></p>
+            <p>The state’s 36 districts exhibit varied agro-climatic conditions, influencing millet yields. For instance, Sangli district has achieved notable success with pearl millet, recording impressive yields due to innovative practices. Ahmednagar is another key area, with jowar as a leading crop, reflecting the district’s suitability for millet cultivation. These variations highlight the importance of district-specific strategies in yield prediction.</p>
+
+            <p><strong>Soil Type and Its Influence</strong></p>
+            <p>Maharashtra’s soil types include black soil, red soil, and alluvial soil, with black soil dominating the Deccan plateau. Black soil, rich in nutrients and moisture-retentive, is particularly suitable for millets like finger millet. Red and sandy soils also support millet growth, especially in drier regions, but yield may vary based on soil fertility and drainage.</p>
+
+            <p><strong>Soil pH and Nutrient Availability</strong></p>
+            <p>Millets prefer a soil pH range of 5.5 to 7.0, slightly acidic to neutral, which enhances nutrient availability. In Maharashtra, maintaining optimal pH levels is essential, as deviations can limit nutrient uptake and affect yield. Soil testing is a practical step to ensure conditions are favorable for millet growth.</p>
+
+            <p><strong>Seasonal Dynamics</strong></p>
+            <p>Millets are predominantly kharif crops, sown with the onset of monsoon rains in June and harvested by September-October. This season aligns with Maharashtra’s heavy rainfall period, essential for rainfed millet cultivation. However, some varieties, like sorghum, are also grown in the rabi season (October-February) with irrigation, offering flexibility but requiring additional water management. The choice of season significantly impacts yield potential.</p>
+
+            <p><strong>Climate Factors: Rainfall, Humidity, and Temperature</strong></p>
+            <p>Maharashtra’s climate is tropical monsoon, characterized by hot summers (March-May, 22-39°C), heavy monsoon rains (June-September), and mild winters (October-February, 12-25°C). Millets are well-suited to this climate, thriving in temperatures between 20-30°C and moderate rainfall. They exhibit drought tolerance, making them resilient to the state’s variable rainfall patterns, especially in semi-arid regions. Humidity levels during monsoon support growth, but excessive rain can lead to waterlogging, reducing yield.</p>
+
+            <p><strong>Land Area and Scale of Production</strong></p>
+            <p>Land area under millet cultivation affects total production but not necessarily yield per unit area. In Maharashtra, larger land holdings may benefit from economies of scale, such as access to modern machinery or irrigation, potentially enhancing productivity. However, yield prediction models typically focus on per hectare productivity, influenced by soil, climate, and management practices rather than area size alone.</p>
+
+            <h3>Comparative Analysis</h3>
+            <table>
+                <tr>
+                    <th>Factor</th>
+                    <th>Impact on Yield</th>
+                    <th>Key Notes for Maharashtra</th>
+                </tr>
+                <tr>
+                    <td>District</td>
+                    <td>Varies by agro-climatic conditions</td>
+                    <td>Sangli, Ahmednagar key for high yields</td>
+                </tr>
+                <tr>
+                    <td>Soil Type</td>
+                    <td>Black soil supports moisture retention, ideal for millets</td>
+                    <td>Predominant in Deccan plateau, suits finger millet</td>
+                </tr>
+                <tr>
+                    <td>Soil pH</td>
+                    <td>Optimal at 5.5-7.0, affects nutrient uptake</td>
+                    <td>Testing recommended for adjustments</td>
+                </tr>
+                <tr>
+                    <td>Season</td>
+                    <td>Kharif preferred, rabi possible with irrigation</td>
+                    <td>Monsoon rains critical for kharif, irrigation for rabi</td>
+                </tr>
+                <tr>
+                    <td>Rainfall, Humidity, Temp</td>
+                    <td>Drought tolerance, 20-30°C ideal, moderate rainfall</td>
+                    <td>Resilient to high temps, variable rainfall challenges</td>
+                </tr>
+                <tr>
+                    <td>Land Area</td>
+                    <td>Affects total production, not per unit yield</td>
+                    <td>Larger areas may have better resource access</td>
+                </tr>
+            </table>
+
+            <p><strong>Conclusion and Implications</strong></p>
+            <p>The interplay of district-specific conditions, soil properties, seasonal preferences, climate factors, and land area significantly shapes millet yield prediction in Maharashtra. Farmers and policymakers can leverage this understanding to adopt climate-resilient practices, optimize soil management, and enhance irrigation for rabi crops. Given Maharashtra’s leadership in millet production, these insights are crucial for sustaining agricultural productivity and ensuring food security.</p>
+
+            <div class="references">
+                <h3>References</h3>
+                <ul>
+                    <li><a href="https://india.mongabay.com/2023/05/maharashtra-drought-prone-village-shows-the-way-of-millet-farming/" target="_blank">How a drought-prone village in Maharashtra attained agricultural success with millets - Mongabay India, 2023</a></li>
+                    <li><a href="https://testbook.com/mpsc-preparation/types-of-soil-in-maharashtra" target="_blank">Types of Soil in Maharashtra, and Distribution for MPSC Exam - Testbook</a></li>
+                    <li><a href="https://www.apnikheti.com/en/pn/agriculture/crops/fodder/finger-millet" target="_blank">Finger Millet | Finger Millet Crop Information - Apni Kheti</a></li>
+                    <li><a href="https://dhan.org/smallmillet_newsletter/millet_cultivation.php" target="_blank">Cultivation Insights: Best Practices for Millet Cultivation - DHAN Foundation</a></li>
+                    <li><a href="https://data-flair.training/blogs/millets-in-india/" target="_blank">Millets in India – Ideal Conditions for Millets Cultivation - DataFlair</a></li>
+                    <li><a href="https://www.mapsofindia.com/maps/maharashtra/geography-and-history/climate.html" target="_blank">Climate of Maharashtra - Maps of India</a></li>
+                    <li><a href="https://www.researchgate.net/publication/273162356_Impact_of_Climate_Change_on_Yields_of_Major_Food_Crops_in_India_Implications_for_Food_Security" target="_blank">Impact of Climate Change on Yields of Major Food Crops in India: Implications for Food Security - ResearchGate</a></li>
+                    <li><a href="https://www.agrifarming.in/district-wise-crop-production-in-maharashtra-major-crops-in-maharashtra" target="_blank">District Wise Crop Production in Maharashtra: Major Crops in Maharashtra - AgriFarming</a></li>
+                    <li><a href="http://agropedia.iitk.ac.in/content/soils-pearl-millet" target="_blank">Soils for Pearl Millet - Agropedia</a></li>
+                    <li><a href="https://www.protectourlivelihood.in/crops/millets/" target="_blank">Millets - Protect Our Livelihood - Protect Our Livelihood Initiative</a></li>
+                    <li><a href="https://www.researchgate.net/publication/340931743_Impact_of_Climate_Variability_and_Change_on_Crop_Production_in_Maharashtra_India" target="_blank">Impact of Climate Variability and Change on Crop Production in Maharashtra, India - ResearchGate</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Marathi Content -->
+        <div id="marathi" class="language-content">
+            <div class="key-points">
+                <h3>मुख्य मुद्दे</h3>
+                <ul>
+                    <li>संशोधन सूचित करते की जिल्हा, मातीचा प्रकार, मातीचा पीएच, हंगाम, हवामान घटक (पाऊस, आर्द्रता, तापमान) आणि जमिनीचे क्षेत्र हे सर्व महाराष्ट्रातील बाजरीच्या उत्पन्नावर वेगवेगळ्या प्रकारे परिणाम करतात.</li>
+                    <li>महाराष्ट्रात सामान्य असलेली काळी माती, विशेषतः नाचणीच्या वाढीसाठी, तिच्या ओलावा धरून ठेवण्याच्या क्षमतेमुळे आधार देते असा अंदाज आहे.</li>
+                    <li>पुरावे असे सूचित करतात की बाजरी खरीप हंगामात पावसाळ्यासह चांगली वाढते, तरीही काही रबी हंगामात सिंचनासह घेतली जाऊ शकते.</li>
+                    <li>पुरेसा पाऊस आणि मध्यम तापमान यासारखे हवामान घटक महत्त्वाचे आहेत, बाजरी दुष्काळास प्रतिरोधक असल्याचे दिसते, जे महाराष्ट्राच्या बदलत्या हवामानाच्या पार्श्वभूमीवर अनपेक्षित आहे.</li>
+                </ul>
+            </div>
+
+            <p><strong>महाराष्ट्रातील बाजरी लागवडीचा परिचय</strong></p>
+            <p>महाराष्ट्र हे ज्वारी (सोरघम), बाजरी (पर्ल मिलेट) आणि नाचणी (फिंगर मिलेट) यासह बाजरीचे महत्त्वाचे उत्पादक आहे, जे राज्याच्या कृषी विविधतेत योगदान देते. ही पिके अन्नसुरक्षेसाठी, विशेषतः अर्ध-शुष्क भागात, महत्त्वाची आहेत आणि त्यांच्या पौष्टिक मूल्यासाठी आणि कठोर परिस्थितीत टिकून राहण्याच्या क्षमतेसाठी ओळखली जातात.</p>
+
+            <h3>बाजरीच्या उत्पन्नावर परिणाम करणारे घटक</h3>
+            <p><strong>जिल्हानिहाय बदल</strong></p>
+            <p>सांगली आणि अहमदनगर यासारख्या वेगवेगळ्या जिल्ह्यांमध्ये अद्वितीय कृषी-हवामान परिस्थिती आहेत जी बाजरीच्या उत्पन्नावर परिणाम करतात. उदाहरणार्थ, सांगलीने नवीन शेती पद्धतींमुळे बाजरीत यश मिळवले आहे, तर अहमदनगर ज्वारीच्या उत्पादनासाठी ओळखले जाते.</p>
+
+            <p><strong>मातीचा प्रकार आणि पीएच</strong></p>
+            <p>दख्खनच्या पठारावर प्रामुख्याने आढळणारी काळी माती, नाचणीसारख्या बाजरीसाठी आदर्श आहे कारण ती ओलावा आणि पोषक तत्त्वे टिकवून ठेवते. बाजरीला 5.5 ते 7.0 चा मातीचा पीएच आवडतो, जो पोषक तत्त्वांचे योग्य शोषण सुलभ करतो, ज्यामुळे माती व्यवस्थापन हे उत्पन्नाच्या अंदाजात महत्त्वाचे ठरते.</p>
+
+            <p><strong>हंगामी परिणाम</strong></p>
+            <p>बाजरी प्रामुख्याने खरीप पिके आहेत, जून ते सप्टेंबर या काळात पावसाळ्यासह घेतली जातात, परंतु काही, जसे ज्वारी, रबी हंगामात सिंचनासह लागवड करता येतात. हंगाम पाण्याची उपलब्धता आणि पिकाची निवड ठरवतो, ज्याचा एकूण उत्पन्नावर परिणाम होतो.</p>
+
+            <p><strong>हवामान घटक</strong></p>
+            <p>महाराष्ट्राचे उष्णकटिबंधीय पावसाळी हवामान, ज्यात उष्ण उन्हाळा आणि मुसळधार पावसाळा असतो, बाजरीसाठी योग्य आहे, जी दुष्काळास प्रतिरोधक असून 20-30 डिग्री सेल्सियस तापमानात चांगली वाढते. वाढीच्या काळात पाऊस महत्त्वाचा असतो, आणि बाजरीची उच्च तापमान सहन करण्याची क्षमता ही राज्याच्या बदलत्या हवामानात मोठा फायदा आहे.</p>
+
+            <p><strong>जमिनीच्या क्षेत्राचे विचार</strong></p>
+            <p>जमिनीचे क्षेत्र स्वतःहून प्रति युनिट उत्पन्नावर थेट परिणाम करत नाही, परंतु मोठ्या क्षेत्रांना चांगल्या साधनांची उपलब्धता मिळू शकते, ज्यामुळे एकूण उत्पादन सुधारू शकते. उत्पन्नाचा अंदाज प्रति हेक्टर उत्पादकतेवर केंद्रित असतो, जो वरील घटकांच्या परस्परसंनादाने आकार घेतो.</p>
+
+            <h3>घटकांचे सविस्तर विश्लेषण</h3>
+            <p><strong>महाराष्ट्रातील बाजरी लागवडीचे अवलोकन</strong></p>
+            <p>ज्वारी (सोरघम), बाजरी (पर्ल मिलेट) आणि नाचणी (फिंगर मिलेट) यासह बाजरी महाराष्ट्राच्या शेतीसाठी, विशेषतः अर्ध-शुष्क आणि दुष्काळग्रस्त भागात, महत्त्वाची आहे. राज्य बाजरी उत्पादनात उच्च स्थानावर आहे, ज्यामध्ये सांगली, अहमदनगर आणि इतर जिल्ह्यांचा महत्त्वाचा वाटा आहे. ही पिके त्यांच्या पौष्टिक फायद्यांसाठी आणि टिकण्याच्या क्षमतेसाठी मूल्यवान आहेत, जे शाश्वत शेतीला प्रोत्साहन देण्याच्या प्रयत्नांशी संरेखित आहे.</p>
+
+            <p><strong>जिल्हा-विशिष्ट परिणाम</strong></p>
+            <p>राज्याच्या 36 जिल्ह्यांमध्ये वेगवेगळ्या कृषी-हवामान परिस्थिती आहेत, ज्या बाजरीच्या उत्पन्नावर परिणाम करतात. उदाहरणार्थ, सांगली जिल्ह्याने नवीन पद्धतींमुळे बाजरीत उल्लेखनीय यश मिळवले आहे, तर अहमदनगर ज्वारीसाठी प्रमुख क्षेत्र आहे, जे या जिल्ह्याच्या बाजरी लागवडीसाठी योग्यता दर्शवते. हे बदल उत्पन्नाच्या अंदाजात जिल्हा-विशिष्ट धोरणांची महत्त्वाची भूमिका अधोरेखित करतात.</p>
+
+            <p><strong>मातीचा प्रकार आणि त्याचा प्रभाव</strong></p>
+            <p>महाराष्ट्रातील मातीच्या प्रकारांमध्ये काळी माती, लाल माती आणि गाळाची माती समाविष्ट आहे, ज्यामध्ये दख्खनच्या पठारावर काळी माती सर्वाधिक आहे. काळी माती, पोषक तत्त्वांनी समृद्ध आणि ओलावा धरून ठेवणारी, नाचणीसारख्या बाजरीसाठी विशेषतः योग्य आहे. लाल आणि वालुकामय माती देखील बाजरीच्या वाढीस आधार देतात, विशेषतः कोरड्या भागात, परंतु उत्पन्न मातीच्या सुपीकतेनुसार आणि पाण्याच्या निचऱ्यानुसार बदलते.</p>
+
+            <p><strong>मातीचा पीएच आणि पोषक तत्त्वांची उपलब्धता</strong></p>
+            <p>बाजरीला 5.5 ते 7.0 चा मातीचा पीएच श्रेणी आवडते, जी थोडे अम्लीय ते तटस्थ आहे, ज्यामुळे पोषक तत्त्वांची उपलब्धता वाढते. महाराष्ट्रात, इष्टतम पीएच पातळी राखणे आवश्यक आहे, कारण त्यात बदल झाल्यास पोषक तत्त्वांचे शोषण मर्यादित होऊन उत्पन्नावर परिणाम होऊ शकतो. मातीची चाचणी ही बाजरीच्या वाढीसाठी अनुकूल परिस्थिती सुनिश्चित करण्यासाठी व्यावहारिक पाऊल आहे.</p>
+
+            <p><strong>हंगामी गतिशीलता</strong></p>
+            <p>बाजरी प्रामुख्याने खरीप पिके आहेत, जूनमध्ये पावसाळ्याच्या सुरुवातीला लागवड करून सप्टेंबर-ऑक्टोबरमध्ये कापणी केली जाते. हा हंगाम महाराष्ट्राच्या मुसळधार पावसाच्या काळाशी संरेखित आहे, जो पावसावर अवलंबून असलेल्या बाजरी लागवडीसाठी आवश्यक आहे. तथापि, काही जाती, जसे ज्वारी, ऑक्टोबर-फेब्रुवारी या रबी हंगामात सिंचनासह घेतल्या जातात, ज्यामुळे लवचिकता मिळते परंतु अतिरिक्त पाणी व्यवस्थापनाची गरज असते. हंगामाची निवड उत्पन्नाच्या संभाव्यतेवर मोठ्या प्रमाणात परिणाम करते.</p>
+
+            <p><strong>हवामान घटक: पाऊस, आर्द्रता आणि तापमान</strong></p>
+            <p>महाराष्ट्राचे हवामान उष्णकटिबंधीय पावसाळी आहे, ज्यामध्ये उष्ण उन्हाळा (मार्च-मे, 22-39 डिग्री सेल्सियस), मुसळधार पावसाळा (जून-सप्टेंबर) आणि सौम्य हिवाळा (ऑक्टोबर-फेब्रुवारी, 12-25 डिग्री सेल्सियस) यांचा समावेश आहे. बाजरी या हवामानासाठी योग्य आहे, 20-30 डिग्री सेल्सियस तापमानात आणि मध्यम पावसात चांगली वाढते. ती दुष्काळास प्रतिरोधक आहे, ज्यामुळे राज्याच्या बदलत्या पावसाच्या नमुन्यांमध्ये, विशेषतः अर्ध-शुष्क भागात, ती टिकून राहते. पावसाळ्यातील आर्द्रता वाढीस मदत करते, परंतु जास्त पाऊस पाणी साचण्यास कारणीभूत ठरू शकतो, ज्यामुळे उत्पन्न कमी होते.</p>
+
+            <p><strong>जमिनीचे क्षेत्र आणि उत्पादनाचे प्रमाण</strong></p>
+            <p>बाजरी लागवडीखालील जमिनीचे क्षेत्र एकूण उत्पादनावर परिणाम करते परंतु प्रति युनिट क्षेत्राच्या उत्पन्नावर आवश्यक नाही. महाराष्ट्रात, मोठ्या जमिनींना आधुनिक यंत्रसामग्री किंवा सिंचन यासारख्या सुविधांचा लाभ मिळू शकतो, ज्यामुळे उत्पादकता वाढू शकते. तथापि, उत्पन्न अंदाज मॉडेल्स सामान्यतः प्रति हेक्टर उत्पादकतेवर लक्ष केंद्रित करतात, जे माती, हवामान आणि व्यवस्थापन पद्धतींवर प्रभावित होते, क्षेत्राच्या आकारापेक्षा नाही.</p>
+
+            <h3>तुलनात्मक विश्लेषण</h3>
+            <table>
+                <tr>
+                    <th>घटक</th>
+                    <th>उत्पन्नावर परिणाम</th>
+                    <th>महाराष्ट्रासाठी मुख्य टिपा</th>
+                </tr>
+                <tr>
+                    <td>जिल्हा</td>
+                    <td>कृषी-हवामान परिस्थितीनुसार बदलतो</td>
+                    <td>सांगली, अहमदनगर उच्च उत्पन्नासाठी महत्त्वाचे</td>
+                </tr>
+                <tr>
+                    <td>मातीचा प्रकार</td>
+                    <td>काळी माती ओलावा धरून ठेवते, बाजरीसाठी आदर्श</td>
+                    <td>दख्खनच्या पठारावर प्रामुख्याने, नाचणीसाठी योग्य</td>
+                </tr>
+                <tr>
+                    <td>मातीचा पीएच</td>
+                    <td>5.5-7.0 इष्टतम, पोषक शोषणावर परिणाम</td>
+                    <td>समायोजनासाठी चाचणी शिफारस केली जाते</td>
+                </tr>
+                <tr>
+                    <td>हंगाम</td>
+                    <td>खरीपाला प्राधान्य, रबीसाठी सिंचन शक्य</td>
+                    <td>खरीपासाठी पावसाळ्याचा पाऊस महत्त्वाचा, रबीसाठी सिंचन</td>
+                </tr>
+                <tr>
+                    <td>पाऊस, आर्द्रता, तापमान</td>
+                    <td>दुष्काळास प्रतिरोधक, 20-30°C आदर्श, मध्यम पाऊस</td>
+                    <td>उच्च तापमानास प्रतिरोधक, बदलत्या पावसाच्या आव्हानांना तोंड देणारे</td>
+                </tr>
+                <tr>
+                    <td>जमिनीचे क्षेत्र</td>
+                    <td>एकूण उत्पादनावर परिणाम, प्रति युनिट उत्पन्नावर नाही</td>
+                    <td>मोठ्या क्षेत्रांना चांगल्या साधनांची उपलब्धता मिळू शकते</td>
+                </tr>
+            </table>
+
+            <p><strong>निष्कर्ष आणि परिणाम</strong></p>
+            <p>जिल्हा-विशिष्ट परिस्थिती, मातीचे गुणधर्म, हंगामी प्राधान्ये, हवामान घटक आणि जमिनीचे क्षेत्र यांचा परस्परसंनाद महाराष्ट्रातील बाजरीच्या उत्पन्नाच्या अंदाजाला आकार देतो. शेतकरी आणि धोरणकर्ते या समजुतीचा उपयोग हवामान-प्रतिरोधक पद्धती स्वीकारण्यासाठी, माती व्यवस्थापन सुधारण्यासाठी आणि रबी पिकांसाठी सिंचन वाढवण्यासाठी करू शकतात. महाराष्ट्राच्या बाजरी उत्पादनातील नेतृत्व लक्षात घेता, ही अंतर्दृष्टी कृषी उत्पादकता टिकवण्यासाठी आणि अन्नसुरक्षा सुनिश्चित करण्यासाठी महत्त्वाची आहे.</p>
+
+            <div class="references">
+                <h3>संदर्भ</h3>
+                <ul>
+                    <li><a href="https://india.mongabay.com/2023/05/maharashtra-drought-prone-village-shows-the-way-of-millet-farming/" target="_blank">How a drought-prone village in Maharashtra attained agricultural success with millets - Mongabay India, 2023</a></li>
+                    <li><a href="https://testbook.com/mpsc-preparation/types-of-soil-in-maharashtra" target="_blank">Types of Soil in Maharashtra, and Distribution for MPSC Exam - Testbook</a></li>
+                    <li><a href="https://www.apnikheti.com/en/pn/agriculture/crops/fodder/finger-millet" target="_blank">Finger Millet | Finger Millet Crop Information - Apni Kheti</a></li>
+                    <li><a href="https://dhan.org/smallmillet_newsletter/millet_cultivation.php" target="_blank">Cultivation Insights: Best Practices for Millet Cultivation - DHAN Foundation</a></li>
+                    <li><a href="https://data-flair.training/blogs/millets-in-india/" target="_blank">Millets in India – Ideal Conditions for Millets Cultivation - DataFlair</a></li>
+                    <li><a href="https://www.mapsofindia.com/maps/maharashtra/geography-and-history/climate.html" target="_blank">Climate of Maharashtra - Maps of India</a></li>
+                    <li><a href="https://www.researchgate.net/publication/273162356_Impact_of_Climate_Change_on_Yields_of_Major_Food_Crops_in_India_Implications_for_Food_Security" target="_blank">Impact of Climate Change on Yields of Major Food Crops in India: Implications for Food Security - ResearchGate</a></li>
+                    <li><a href="https://www.agrifarming.in/district-wise-crop-production-in-maharashtra-major-crops-in-maharashtra" target="_blank">District Wise Crop Production in Maharashtra: Major Crops in Maharashtra - AgriFarming</a></li>
+                    <li><a href="http://agropedia.iitk.ac.in/content/soils-pearl-millet" target="_blank">Soils for Pearl Millet - Agropedia</a></li>
+                    <li><a href="https://www.protectourlivelihood.in/crops/millets/" target="_blank">Millets - Protect Our Livelihood - Protect Our Livelihood Initiative</a></li>
+                    <li><a href="https://www.researchgate.net/publication/340931743_Impact_of_Climate_Variability_and_Change_on_Crop_Production_in_Maharashtra_India" target="_blank">Impact of Climate Variability and Change on Crop Production in Maharashtra, India - ResearchGate</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Hindi Content -->
+        <div id="hindi" class="language-content">
+            <div class="key-points">
+                <h3>मुख्य बिंदु</h3>
+                <ul>
+                    <li>शोध से पता चलता है कि जिला, मिट्टी का प्रकार, मिट्टी का पीएच, मौसम, जलवायु कारक (वर्षा, आर्द्रता, तापमान) और भूमि क्षेत्र सभी महाराष्ट्र में बाजरे की उपज को अलग-अलग प्रभावित करते हैं।</li>
+                    <li>यह संभावना है कि महाराष्ट्र में आम काली मिट्टी, विशेष रूप से रागी के विकास को, अपनी नमी धारण करने की क्षमता के कारण समर्थन देती है।</li>
+                    <li>साक्ष्य यह सुझाव देते हैं कि बाजरा खरीफ मौसम में मानसून की बारिश के साथ फलता-फूलता है, हालांकि कुछ को रबी मौसम में सिंचाई के साथ उगाया जा सकता है।</li>
+                    <li>पर्याप्त वर्षा और मध्यम तापमान जैसे जलवायु कारक महत्वपूर्ण हैं, बाजरा सूखे के प्रति लचीलापन दिखाता है, जो महाराष्ट्र की बदलती जलवायु को देखते हुए अप्रत्याशित है।</li>
+                </ul>
+            </div>
+
+            <p><strong>महाराष्ट्र में बाजरे की खेती का परिचय</strong></p>
+            <p>महाराष्ट्र ज्वार (सोरघम), बाजरा (पर्ल मिलेट), और रागी (फिंगर मिलेट) सहित बाजरे का एक महत्वपूर्ण उत्पादक है, जो राज्य की कृषि विविधता में योगदान देता है। ये फसलें खाद्य सुरक्षा के लिए, विशेष रूप से अर्ध-शुष्क क्षेत्रों में, महत्वपूर्ण हैं और अपने पोषण मूल्य और कठिन परिस्थितियों में टिकने की क्षमता के लिए जानी जाती हैं।</p>
+
+            <h3>बाजरे की उपज को प्रभावित करने वाले कारक</h3>
+            <p><strong>जिलेवार भिन्नताएं</strong></p>
+            <p>सांगली और अहमदनगर जैसे विभिन्न जिलों में अद्वितीय कृषि-जलवायु परिस्थितियाँ हैं जो बाजरे की उपज को प्रभावित करती हैं। उदाहरण के लिए, सांगली ने नवीन खेती प्रथाओं के कारण बाजरे में सफलता दिखाई है, जबकि अहमदनगर अपने ज्वार उत्पादन के लिए जाना जाता है।</p>
+
+            <p><strong>मिट्टी का प्रकार और पीएच</strong></p>
+            <p>दक्कन पठार पर प्रचलित काली मिट्टी, रागी जैसे बाजरे के लिए आदर्श है क्योंकि यह नमी और पोषक तत्वों को बनाए रखती है। बाजरा 5.5 से 7.0 के मिट्टी के पीएच को पसंद करता है, जो पोषक तत्वों के उचित अवशोषण का समर्थन करता है, जिससे मिट्टी प्रबंधन उपज भविष्यवाणी में एक महत्वपूर्ण कारक बन जाता है।</p>
+
+            <p><strong>मौसमी प्रभाव</strong></p>
+            <p>बाजरा मुख्य रूप से खरीफ फसलें हैं, जो जून से सितंबर तक मानसून की बारिश के साथ उगाई जाती हैं, लेकिन कुछ, जैसे ज्वार, रबी मौसम में सिंचाई के साथ उगाए जा सकते हैं। मौसम पानी की उपलब्धता और फसल चयन को प्रभावित करता है, जो कुल उपज परिणामों को प्रभावित करता है।</p>
+
+            <p><strong>जलवायु कारक</strong></p>
+            <p>महाराष्ट्र की उष्णकटिबंधीय मानसून जलवायु, जिसमें गर्म ग्रीष्मकाल और भारी मानसून बारिश होती है, बाजरे के लिए उपयुक्त है, जो सूखा प्रतिरोधी है और 20-30 डिग्री सेल्सियस तापमान में पनपता है। बढ़ते मौसम के दौरान वर्षा महत्वपूर्ण है, और बाजरे की उच्च तापमान सहने की क्षमता राज्य की बदलती जलवायु में एक बड़ा लाभ है।</p>
+
+            <p><strong>भूमि क्षेत्र संबंधी विचार</strong></p>
+            <p>हालांकि भूमि क्षेत्र स्वयं प्रति इकाई उपज को सीधे प्रभावित नहीं करता, बड़े क्षेत्रों को बेहतर संसाधन पहुंच से लाभ हो सकता है, संभवतः कुल उत्पादन में सुधार हो सकता है। उपज भविष्यवाणी प्रति हेक्टर उत्पादकता पर केंद्रित है, जो उपरोक्त कारकों के परस्पर क्रिया से आकार लेती है।</p>
+
+            <h3>कारकों का विस्तृत विश्लेषण</h3>
+            <p><strong>महाराष्ट्र में बाजरे की खेती का अवलोकन</strong></p>
+            <p>ज्वार (सोरघम), बाजरा (पर्ल मिलेट), और रागी (फिंगर मिलेट) सहित बाजरा महाराष्ट्र की कृषि के लिए, विशेष रूप से अर्ध-शुष्क और सूखा प्रभावित क्षेत्रों में, महत्वपूर्ण है। राज्य बाजरे के उत्पादन में उच्च स्थान रखता है, जिसमें सांगली, अहमदनगर और अन्य जिले महत्वपूर्ण भूमिका निभाते हैं। ये फसलें अपने पोषण लाभों और लचीलापन के लिए मूल्यवान हैं, जो टिकाऊ कृषि को बढ़ावा देने के प्रयासों के साथ संरेखित हैं।</p>
+
+            <p><strong>जिला-विशिष्ट प्रभाव</strong></p>
+            <p>राज्य के 36 जिलों में विभिन्न कृषि-जलवायु परिस्थितियाँ हैं, जो बाजरे की उपज को प्रभावित करती हैं। उदाहरण के लिए, सांगली जिले ने नवीन प्रथाओं के कारण बाजरे में उल्लेखनीय सफलता हासिल की है, जो प्रभावशाली उपज दर्ज करता है। अहमदनगर एक अन्य प्रमुख क्षेत्र है, जहाँ ज्वार एक प्रमुख फसल है, जो इस जिले की बाजरे की खेती के लिए उपयुक्तता को दर्शाता है। ये भिन्नताएँ उपज भविष्यवाणी में जिला-विशिष्ट रणनीतियों के महत्व को रेखांकित करती हैं।</p>
+
+            <p><strong>मिट्टी का प्रकार और इसका प्रभाव</strong></p>
+            <p>महाराष्ट्र के मिट्टी के प्रकारों में काली मिट्टी, लाल मिट्टी, और जलोढ़ मिट्टी शामिल हैं, जिसमें दक्कन पठार पर काली मिट्टी का प्रभुत्व है। काली मिट्टी, पोषक तत्वों से भरपूर और नमी धारण करने वाली, रागी जैसे बाजरे के लिए विशेष रूप से उपयुक्त है। लाल और रेतीली मिट्टियाँ भी बाजरे के विकास का समर्थन करती हैं, विशेष रूप से शुष्क क्षेत्रों में, लेकिन उपज मिट्टी की उर्वरता और जल निकासी के आधार पर भिन्न हो सकती है।</p>
+
+            <p><strong>मिट्टी का पीएच और पोषक तत्वों की उपलब्धता</strong></p>
+            <p>बाजरा 5.5 से 7.0 की मिट्टी के पीएच रेंज को पसंद करता है, जो थोड़ा अम्लीय से तटस्थ होता है, जो पोषक तत्वों की उपलब्धता को बढ़ाता है। महाराष्ट्र में, इष्टतम पीएच स्तर बनाए रखना आवश्यक है, क्योंकि इसमें विचलन पोषक तत्वों के अवशोषण को सीमित कर सकता है और उपज को प्रभावित कर सकता है। मिट्टी परीक्षण बाजरे के विकास के लिए अनुकूल परिस्थितियों को सुनिश्चित करने के लिए एक व्यावहारिक कदम है।</p>
+
+            <p><strong>मौसमी गतिशीलता</strong></p>
+            <p>बाजरा मुख्य रूप से खरीफ फसलें हैं, जो जून में मानसून की शुरुआत के साथ बोई जाती हैं और सितंबर-अक्टूबर में काटी जाती हैं। यह मौसम महाराष्ट्र की भारी वर्षा अवधि के साथ संरेखित होता है, जो वर्षा आधारित बाजरे की खेती के लिए आवश्यक है। हालांकि, कुछ किस्में, जैसे ज्वार, अक्टूबर-फरवरी के रबी मौसम में सिंचाई के साथ उगाई जाती हैं, जो लचीलापन प्रदान करती हैं लेकिन अतिरिक्त जल प्रबंधन की आवश्यकता होती है। मौसम का चयन उपज की संभावना पर महत्वपूर्ण प्रभाव डालता है।</p>
+
+            <p><strong>जलवायु कारक: वर्षा, आर्द्रता, और तापमान</strong></p>
+            <p>महाराष्ट्र की जलवायु उष्णकटिबंधीय मानसून है, जिसमें गर्म ग्रीष्मकाल (मार्च-मई, 22-39 डिग्री सेल्सियस), भारी मानसून वर्षा (जून-सितंबर), और हल्की सर्दियाँ (अक्टूबर-फरवरी, 12-25 डिग्री सेल्सियस) शामिल हैं। बाजरा इस जलवायु के लिए उपयुक्त है, जो 20-30 डिग्री सेल्सियस तापमान और मध्यम वर्षा में पनपता है। यह सूखा सहनशीलता प्रदर्शित करता है, जिससे यह राज्य के बदलते वर्षा पैटर्न में, विशेष रूप से अर्ध-शुष्क क्षेत्रों में, लचीला रहता है। मानसून के दौरान आर्द्रता स्तर विकास का समर्थन करते हैं, लेकिन अत्यधिक बारिश जलभराव का कारण बन सकती है, जिससे उपज कम हो सकती है।</p>
+
+            <p><strong>भूमि क्षेत्र और उत्पादन का पैमाना</strong></p>
+            <p>बाजरे की खेती के तहत भूमि क्षेत्र कुल उत्पादन को प्रभावित करता है लेकिन जरूरी नहीं कि प्रति इकाई क्षेत्र की उपज को प्रभावित करे। महाराष्ट्र में, बड़े भूमि क्षेत्र आधुनिक मशीनरी या सिंचाई जैसे पैमाने की अर्थव्यवस्थाओं से लाभान्वित हो सकते हैं, संभवतः उत्पादकता बढ़ा सकते हैं। हालांकि, उपज भविष्यवाणी मॉडल आमतौर पर प्रति हेक्टर उत्पादकता पर ध्यान केंद्रित करते हैं, जो मिट्टी, जलवायु, और प्रबंधन प्रथाओं से प्रभावित होती है, न कि क्षेत्र के आकार से।</p>
+
+            <h3>तुलनात्मक विश्लेषण</h3>
+            <table>
+                <tr>
+                    <th>कारक</th>
+                    <th>उपज पर प्रभाव</th>
+                    <th>महाराष्ट्र के लिए मुख्य नोट्स</th>
+                </tr>
+                <tr>
+                    <td>जिला</td>
+                    <td>कृषि-जलवायु परिस्थितियों के अनुसार बदलता है</td>
+                    <td>सांगली, अहमदनगर उच्च उपज के लिए महत्वपूर्ण</td>
+                </tr>
+                <tr>
+                    <td>मिट्टी का प्रकार</td>
+                    <td>काली मिट्टी नमी धारण करती है, बाजरे के लिए आदर्श</td>
+                    <td>दक्कन पठार पर प्रचलित, रागी के लिए उपयुक्त</td>
+                </tr>
+                <tr>
+                    <td>मिट्टी का पीएच</td>
+                    <td>5.5-7.0 इष्टतम, पोषक अवशोषण को प्रभावित करता है</td>
+                    <td>समायोजन के लिए परीक्षण की सिफारिश</td>
+                </tr>
+                <tr>
+                    <td>मौसम</td>
+                    <td>खरीफ को प्राथमिकता, रबी के लिए सिंचाई संभव</td>
+                    <td>खरीफ के लिए मानसून की बारिश महत्वपूर्ण, रबी के लिए सिंचाई</td>
+                </tr>
+                <tr>
+                    <td>वर्षा, आर्द्रता, तापमान</td>
+                    <td>सूखा सहनशीलता, 20-30°C आदर्श, मध्यम वर्षा</td>
+                    <td>उच्च तापमान के प्रति लचीला, बदलते वर्षा की चुनौतियाँ</td>
+                </tr>
+                <tr>
+                    <td>भूमि क्षेत्र</td>
+                    <td>कुल उत्पादन को प्रभावित करता है, प्रति इकाई उपज को नहीं</td>
+                    <td>बड़े क्षेत्रों को बेहतर संसाधन पहुंच मिल सकती है</td>
+                </tr>
+            </table>
+
+            <p><strong>निष्कर्ष और प्रभाव</strong></p>
+            <p>जिला-विशिष्ट परिस्थितियों, मिट्टी के गुणों, मौसमी प्राथमिकताओं, जलवायु कारकों और भूमि क्षेत्र का आपसी प्रभाव महाराष्ट्र में बाजरे की उपज भविष्यवाणी को आकार देता है। किसान और नीति निर्माता इस समझ का उपयोग जलवायु-प्रतिरोधी प्रथाओं को अपनाने, मिट्टी प्रबंधन को अनुकूलित करने और रबी फसलों के लिए सिंचाई बढ़ाने के लिए कर सकते हैं। महाराष्ट्र के बाजरा उत्पादन में नेतृत्व को देखते हुए, ये अंतर्दृष्टियाँ कृषि उत्पादकता को बनाए रखने और खाद्य सुरक्षा सुनिश्चित करने के लिए महत्वपूर्ण हैं।</p>
+
+            <div class="references">
+                <h3>संदर्भ</h3>
+                <ul>
+                    <li><a href="https://india.mongabay.com/2023/05/maharashtra-drought-prone-village-shows-the-way-of-millet-farming/" target="_blank">How a drought-prone village in Maharashtra attained agricultural success with millets - Mongabay India, 2023</a></li>
+                    <li><a href="https://testbook.com/mpsc-preparation/types-of-soil-in-maharashtra" target="_blank">Types of Soil in Maharashtra, and Distribution for MPSC Exam - Testbook</a></li>
+                    <li><a href="https://www.apnikheti.com/en/pn/agriculture/crops/fodder/finger-millet" target="_blank">Finger Millet | Finger Millet Crop Information - Apni Kheti</a></li>
+                    <li><a href="https://dhan.org/smallmillet_newsletter/millet_cultivation.php" target="_blank">Cultivation Insights: Best Practices for Millet Cultivation - DHAN Foundation</a></li>
+                    <li><a href="https://data-flair.training/blogs/millets-in-india/" target="_blank">Millets in India – Ideal Conditions for Millets Cultivation - DataFlair</a></li>
+                    <li><a href="https://www.mapsofindia.com/maps/maharashtra/geography-and-history/climate.html" target="_blank">Climate of Maharashtra - Maps of India</a></li>
+                    <li><a href="https://www.researchgate.net/publication/273162356_Impact_of_Climate_Change_on_Yields_of_Major_Food_Crops_in_India_Implications_for_Food_Security" target="_blank">Impact of Climate Change on Yields of Major Food Crops in India: Implications for Food Security - ResearchGate</a></li>
+                    <li><a href="https://www.agrifarming.in/district-wise-crop-production-in-maharashtra-major-crops-in-maharashtra" target="_blank">District Wise Crop Production in Maharashtra: Major Crops in Maharashtra - AgriFarming</a></li>
+                    <li><a href="http://agropedia.iitk.ac.in/content/soils-pearl-millet" target="_blank">Soils for Pearl Millet - Agropedia</a></li>
+                    <li><a href="https://www.protectourlivelihood.in/crops/millets/" target="_blank">Millets - Protect Our Livelihood - Protect Our Livelihood Initiative</a></li>
+                    <li><a href="https://www.researchgate.net/publication/340931743_Impact_of_Climate_Variability_and_Change_on_Crop_Production_in_Maharashtra_India" target="_blank">Impact of Climate Variability and Change on Crop Production in Maharashtra, India - ResearchGate</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function switchLanguage() {
+            const lang = document.getElementById('language').value;
+            const contents = document.getElementsByClassName('language-content');
+            for (let content of contents) {
+                content.classList.remove('active');
+            }
+            document.getElementById(lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
